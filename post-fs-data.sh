@@ -1,5 +1,5 @@
 #!/system/bin/sh
-MODDIR=${0%/*}
+MODDIR=${0%/modules}
 insmod "$MODDIR"/btbcm.ko
 insmod "$MODDIR"/ieee802154.ko
 insmod "$MODDIR"/nhc_routing.ko
